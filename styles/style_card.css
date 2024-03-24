@@ -1,0 +1,45 @@
+body {
+    font-family: poppins, sans-serif;
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.card-box {
+    border: 1px solid #ddd;
+    box-shadow: 5px 0px 10px #0000001a;
+    overflow: hidden;
+}
+
+h3 {
+    text-align: center;
+}
+
+.card-box img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.btn-card {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    font-family: poppins, sans-serif;
+}
